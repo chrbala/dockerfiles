@@ -62,4 +62,4 @@ EXPOSE 9222
 
 # Autorun chrome headless with no GPU
 ENTRYPOINT [ "google-chrome" ]
-CMD [ "--headless", "--disable-gpu", "--remote-debugging-address=0.0.0.0", "--remote-debugging-port=9222" ]
+CMD [ "--headless", "--disable-gpu", "--remote-debugging-address=0.0.0.0", "--remote-debugging-port=9222", "--hide-scrollbars" ]
